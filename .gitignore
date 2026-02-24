@@ -1,0 +1,79 @@
+##################################
+# Java / Maven / Gradle
+##################################
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+target/
+build/
+out/
+
+##################################
+# Tomcat / Servidor
+##################################
+/apache-tomcat-*/
+/tomcat/
+/work/
+/temp/
+/logs/
+
+##################################
+# IDEs
+##################################
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+##################################
+# Sistema Operacional
+##################################
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+##################################
+# Banco de Dados / Configurações
+##################################
+# Arquivos de conexão sensíveis
+*.env
+application.properties
+application.yml
+
+##################################
+# Node / Frontend (se futuramente usar)
+##################################
+node_modules/
+dist/
+.cache/
+
+##################################
+# Logs
+##################################
+logs/
+*.log
+
+##################################
+# Outros
+##################################
+*.tmp
+*.swp
