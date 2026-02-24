@@ -55,7 +55,8 @@ class Segment {
 
 const segments = [];
 for (let i = 0; i < 10; i++) {
-  segments.push(new Segment(mouse.x, mouse.y, 20, 10));
+    const radius = 15 * Math.pow(0.85, i); // Diminui o raio para criar um efeito de cauda
+    segments.push(new Segment(mouse.x, mouse.y, 20, Math.max(radius, 5))); // Garante um raio mínimo de 5
 }
 
 function animate() {
