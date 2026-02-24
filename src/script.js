@@ -1,7 +1,3 @@
-// ===============================
-// CONFIGURAÇÃO DO CANVAS
-// ===============================
-
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
@@ -14,9 +10,6 @@ resizeCanvas();
 
 window.addEventListener("resize", resizeCanvas);
 
-// ===============================
-// CONFIGURAÇÃO DO MOUSE
-// ===============================
 
 const mouse = {
   x: canvas.width / 2,
