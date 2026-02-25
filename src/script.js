@@ -65,7 +65,7 @@ class Fish {
     this.segmentLength = 20;
 
     this.segmentRadii = [
-      20, 38, 52, 56, 56, 56, 50, 44, 30, 26, 22, 18, 14, 10, 8, 7, 6, 5, 4, 3,
+      28, 36, 40, 44, 44, 44, 40, 28, 20, 15, 10, 7, 5, 4, 3.5, 3,
     ];
 
     this.segments = this.segmentRadii.map(
@@ -201,7 +201,7 @@ class Fish {
   drawEyes() {
     const ctx = this.ctx;
     const seg = this.segments[1];
-    const offset = seg.radius * 0.4;
+    const offset = seg.radius * 0.25;
     const perp = seg.angle + Math.PI / 2;
 
     const points = [
@@ -228,7 +228,7 @@ class Fish {
   // =============================
   drawTail() {
     const ctx = this.ctx;
-    const tailStart = this.segments.length - 7;
+    const tailStart = this.segments.length - 9;
 
     ctx.beginPath();
 

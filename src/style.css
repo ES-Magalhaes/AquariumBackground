@@ -1,9 +1,41 @@
-body {
-  margin: 0;
+/* Container full screen */
+#aquarium {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
-  background: #001f3f;
 }
 
+/* Imagem de fundo com efeito vidro */
+#aquarium-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(2px) brightness(0.7) contrast(1.1);
+  z-index: 0;
+}
+
+/* Overlay azul translúcido simulando água */
+#water-overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 119, 182, 0.15);
+  z-index: 0.5;
+}
+
+/* Canvas por cima de tudo */
 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
   display: block;
 }
