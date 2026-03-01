@@ -48,14 +48,13 @@ Projeto web desenvolvido com o objetivo de aprofundar minhas habilidades de Fron
 
 ```plaintext
 AquariumBackground/
-├── src/
-│   ├── index.html
-│   ├── script.js
-│   └── style.css
 ├── assets/
-│   ├── aquarium-bg.jpg
-│   └── clipAquario.png
+│   └── clipAquario.gif
+├── index.html
+├── script.js
+├── style.css
 ├── .gitignore
+├── .nojekyll
 ├── LICENSE
 └── README.md
 ```
