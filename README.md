@@ -60,7 +60,7 @@ AquariumBackground/
 ```
 
 ## 🚀 Como Conferir o Projeto
-### Acesse o projeto pelo link: https://es-magalhaes.github.io/AquariumBackground/
+### Acesse o projeto pelo link: https://es-magalhaes.github.io/Aquarius/
 
 ## 🎨 Interface e Layout
 
@@ -71,7 +71,8 @@ AquariumBackground/
 ## 🗺️ Próximos Passos
 
 - Adição de outros peixes para serem utilizados no sistema
+- Modularização do projeto para seguir padrões de desenvolvimento de software
 
 ---
 
-📌 Projeto desenvolvido para fins acadêmicos e prática de desenvolvimento web full stack.
+📌 Projeto desenvolvido para fins acadêmicos e prática de desenvolvimento web front end.
